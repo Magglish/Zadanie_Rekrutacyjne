@@ -1,0 +1,15 @@
+artifact_uri: file:///home/marcin/Marcin/WIEDZA/__zadania_rekrutacyjne/Sotrender/mlruns/0/5fc10977bb1a4ffca28b28b9a7c6b86c/artifacts
+end_time: 1626724261999
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 5fc10977bb1a4ffca28b28b9a7c6b86c
+run_uuid: 5fc10977bb1a4ffca28b28b9a7c6b86c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1626724251666
+status: 3
+tags: []
+user_id: marcin

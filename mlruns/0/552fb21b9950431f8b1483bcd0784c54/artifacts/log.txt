@@ -1,0 +1,28 @@
+INFO:__main__:Collecting new data
+INFO:__main__:New data collected
+INFO:__main__:Data verification and validation
+INFO:__main__:Starting MLFlow run: Support Vector Classifier v01
+INFO:__main__:Creating validation set
+INFO:__main__:Creating cleaning pipeline
+INFO:__main__:Fitting cleaning pipeline and transforming training set
+INFO:__main__:Transforming validation set
+INFO:__main__:Performing hyperparatemer optimization
+INFO:__main__:Hyperparatemer optimization completed. Best params are: tfidf: {'encoding': 'utf-8', 'decode_error': 'strict', 'strip_accents': None, 'lowercase': False, 'preprocessor': None, 'tokenizer': None, 'analyzer': 'word', 'stop_words': None, 'token_pattern': '(?u)\\b\\w\\w\\w+\\b|[^\\x00-\\x7F]', 'ngram_range': (1, 1), 'max_df': 0.95, 'min_df': 5} ml model: {'C': 1.0, 'kernel': 'poly', 'degree': 3}
+INFO:__main__:Creating ML model pipeline
+INFO:__main__:Fitting ML model
+INFO:__main__:Performing check on training data
+INFO:__main__:Predicting training set
+INFO:__main__:Evaluating training set
+INFO:__main__:Performing check on validation data
+INFO:__main__:Predicting validation set
+INFO:__main__:Evaluating validation set
+INFO:__main__:F1 micro average -> train set = 0.9740, validation set = 0.9210
+INFO:__main__:Performing check on test data
+INFO:__main__:Fitting cleaning pipeline and transforming training set on full data
+INFO:__main__:Transforming test set
+INFO:__main__:Fitting ML model on full data
+INFO:__main__:Predicting test set
+INFO:__main__:Evaluating test set
+INFO:__main__:Checking new ML model vs. production ML model
+INFO:__main__:F1 micro average -> New model = 0.8690, Production = 0.8690, Baseline = 0.8660
+INFO:__main__:Ended MLFlow run: Support Vector Classifier v01 after 10.60 seconds = 0.18 minutes = 0.00 hours
